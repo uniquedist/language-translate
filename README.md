@@ -7,8 +7,10 @@
 https://kdocs.cn/l/csMx5JS1l9yq
 ## potplayer
 一开始是想弄这个的，结果发现它的翻译是基于外挂字幕的，所以不得以有了下面两个
-## 阿里云
-参考该仓库：  
+## ~~阿里云~~
+**最近拉了下代码,发现跑不起来了,似乎是阿里的jar包变化了,懒得修改了,有空研究研究通义听悟**
+
+参考该仓库： 
 https://github.com/yi-ge/desktop-subtitle  
 在其上添加了翻译功能,javafx说实话是不会用的。。。  
 运行就是main,java  
@@ -36,3 +38,9 @@ public static final String FROM = "en";
 public static final String TO = "zh" ;
 
 ```
+# 后记
+最近拉下来想看看,结果跑不起来了,研究一通是因为javafx,发现以前可能用的是Oraclejdk8,现在用的是openjdk8,
+导致这种结果,后来一通百度
+两种方式:
+* 一是用Oraclejdk
+* 二是用openjdk,但是要使用jdk11之后的版本,只有11之后才有对应的mavenjar包,现在用的是jdk17

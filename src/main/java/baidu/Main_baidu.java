@@ -37,8 +37,9 @@ public class Main_baidu extends Application {
 
     }
 
-
+/*
     public static void main(String[] args) {
-        launch(args);
-    }
+        //launch(args);
+        Application.launch(Main_baidu.class);
+    }*/
 }
